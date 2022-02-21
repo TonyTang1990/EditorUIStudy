@@ -1,0 +1,9 @@
+# 文件以及目录过滤
+# 过滤library目录
+EditorUIStudy/Library/
+# 过滤.vs目录
+EditorUIStudy/.vs/
+# 过滤Temp目录
+EditorUIStudy/Temp/
+# 过滤obj目录
+EditorUIStudy/obj/
