@@ -53,8 +53,11 @@
     <UnityVersion>2019.4.31f1c1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AutoLayoutDraw.cs" />
     <Compile Include="Assets\Scripts\CoordinateSystemDraw.cs" />
     <Compile Include="Assets\Scripts\CustomInspectorDraw.cs" />
+    <Compile Include="Assets\Scripts\EventDraw.cs" />
+    <Compile Include="Assets\Scripts\FixLayoutDraw.cs" />
     <Compile Include="Assets\Scripts\GameLauncher.cs" />
     <Compile Include="Assets\Scripts\InspectorPropertyDraw.cs" />
     <Compile Include="Assets\Scripts\PropertyAttribute\TPreviewAttribute.cs" />
