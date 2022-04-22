@@ -60,8 +60,17 @@
     <Compile Include="Assets\Scripts\Editor\EditorStyle\EditorStyle.cs" />
     <Compile Include="Assets\Scripts\Editor\Extension\UnityExtension\SerializedObjectExtension.cs" />
     <Compile Include="Assets\Scripts\Editor\Extension\UnityExtension\SerializedPropertyExtension.cs" />
+    <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageTreeAsset.cs" />
+    <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageTreeView.cs" />
+    <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageTreeViewElement.cs" />
+    <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageTreeViewWindow.cs" />
     <Compile Include="Assets\Scripts\Editor\PropertyDrawer\TPreviewDrawer.cs" />
     <Compile Include="Assets\Scripts\Editor\PropertyDrawer\TRangeDrawer.cs" />
+    <Compile Include="Assets\Scripts\Editor\TreeView\TreeElementUtility.cs" />
+    <Compile Include="Assets\Scripts\Editor\TreeView\TreeModel.cs" />
+    <Compile Include="Assets\Scripts\Editor\TreeView\TreeViewElement.cs" />
+    <Compile Include="Assets\Scripts\Editor\TreeView\TreeViewItemGeneric.cs" />
+    <Compile Include="Assets\Scripts\Editor\TreeView\TreeViewWithTreeModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
