@@ -80,6 +80,7 @@ public class TreeViewWithTreeModel<T> : TreeView where T : TreeViewElement
         }
 
         RowList.Clear();
+        // 支持搜索功能
         if (!string.IsNullOrEmpty(searchString))
         {
             Search(TreeModel.Root, searchString, RowList);
@@ -96,6 +97,16 @@ public class TreeViewWithTreeModel<T> : TreeView where T : TreeViewElement
         SetupParentsAndChildrenFromDepths(root, RowList);
 
         return RowList;
+    }
+
+    /// <summary>
+    /// 获取指定id的所有上层父节点id列表
+    /// </summary>
+    /// <param name="id"></param>
+    /// <returns></returns>
+    protected override IList<int> GetAncestors(int id)
+    {
+        return TreeModel.GetAncestors(id);
     }
 
     /// <summary>

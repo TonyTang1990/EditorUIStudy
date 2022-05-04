@@ -44,12 +44,12 @@ public class GameLauncher : MonoBehaviour
         if(CheckSameScen(ENTRY_SCENE_NAME))
         {
             // 标题部分
-            GUILayout.BeginArea(new Rect(Screen.width / 2 - 40, 100, 80, 20));
+            GUILayout.BeginArea(new Rect(Screen.width / 2 - 40, Screen.height / 2 - 190, 80, 20));
             GUILayout.Label("GUI学习入口", GUILayout.Width(100f), GUILayout.Height(20f));
             GUILayout.EndArea();
 
             // 学习入口部分
-            GUILayout.BeginArea(new Rect(Screen.width / 2 - 300, 130, 600, Screen.height - 200));
+            GUILayout.BeginArea(new Rect(Screen.width / 2 - 300, Screen.height / 2 - 150, 600, 150));
             GUILayout.BeginVertical();
             var Index = 0;
             for (int i = 0, length = mSceneNameList.Count; i < length; i++)

@@ -22,7 +22,7 @@ public class AutoLayoutDraw : MonoBehaviour
             Debug.Log($"点击了自动排版的第一个按钮!");
         }
         // 带自动排版的自定义绘制区域1
-        GUILayout.BeginArea(new Rect(Screen.width / 2 - 150, Screen.height / 2 - 150, 300, 300));
+        GUILayout.BeginArea(new Rect(Screen.width / 2 - 150, Screen.height / 2 - 30, 300, 60));
         if(GUILayout.Button("自动排版中心区域内的按钮1"))
         {
             Debug.Log($"点击了自动排版中心区域内的按钮1!");
@@ -34,7 +34,7 @@ public class AutoLayoutDraw : MonoBehaviour
         GUILayout.EndArea();
 
         // 带自动排版的自定义绘制区域2
-        GUILayout.BeginArea(new Rect(Screen.width - 300, Screen.height - 100, 300, 100));
+        GUILayout.BeginArea(new Rect(Screen.width - 300, Screen.height - 50, 300, 50));
         // 指定右下角区域采用纵向自动布局
         GUILayout.BeginVertical();
         // 指定GUI按钮的宽度固定200

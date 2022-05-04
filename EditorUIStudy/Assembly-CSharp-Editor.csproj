@@ -54,16 +54,20 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Editor\AssetProcesserHook\ScriptAutoProcess\ScriptKeywordProcesser.cs" />
+    <Compile Include="Assets\Scripts\Editor\BaseEditorWindow.cs" />
     <Compile Include="Assets\Scripts\Editor\CustomEditor\CoordinateSystemDrawEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\CustomEditor\CustomInspectorDrawEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\CustomEditor\TagAndButtonDrawEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\EditorStyle\EditorStyle.cs" />
+    <Compile Include="Assets\Scripts\Editor\EditorUtilities.cs" />
     <Compile Include="Assets\Scripts\Editor\Extension\UnityExtension\SerializedObjectExtension.cs" />
     <Compile Include="Assets\Scripts\Editor\Extension\UnityExtension\SerializedPropertyExtension.cs" />
+    <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageAsset.cs" />
     <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageTreeAsset.cs" />
+    <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageTreeAssetEditor.cs" />
     <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageTreeView.cs" />
     <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageTreeViewElement.cs" />
-    <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageTreeViewWindow.cs" />
+    <Compile Include="Assets\Scripts\Editor\MessageTreeView\MessageWindow.cs" />
     <Compile Include="Assets\Scripts\Editor\PropertyDrawer\TPreviewDrawer.cs" />
     <Compile Include="Assets\Scripts\Editor\PropertyDrawer\TRangeDrawer.cs" />
     <Compile Include="Assets\Scripts\Editor\TreeView\TreeElementUtility.cs" />

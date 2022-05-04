@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\PropertyAttribute\TPreviewAttribute.cs" />
     <Compile Include="Assets\Scripts\PropertyAttribute\TRangeAttribute.cs" />
     <Compile Include="Assets\Scripts\TagAndButtonDraw.cs" />
+    <Compile Include="Assets\Scripts\Utilities\PathUtilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

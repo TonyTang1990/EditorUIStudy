@@ -9,14 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
-  m_Script: {fileID: 11500000, guid: dd9d8c43d2a2dba41ba3b733c605fd32, type: 3}
-  m_Name: MessageTreeAsset
+  m_Script: {fileID: 11500000, guid: 5de31eafaca098041b5a00dcfc8c1291, type: 3}
+  m_Name: MessageAsset
   m_EditorClassIdentifier: 
-  MessageTreeElementList:
-  - ID: 0
-    Name: "\u6D88\u606F\u6839\u8282\u70B9"
-    Depth: -1
-    MsgName: "\u6D88\u606F\u6839\u8282\u70B9"
-    MsgType: 0
-    MsgContent: 
-    MsgAnnotation: 
+  MessageBlackList: []
