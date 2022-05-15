@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TagAndButtonScene.unity
     guid: 140499adfdbc11445b1d2aafe30cf569
+  - enabled: 1
+    path: Assets/Scenes/CoordinateSystemScene.unity
+    guid: fa6a693209121914e88c86361f4c8e06
   m_configObjects: {}
